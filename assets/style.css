@@ -1,6 +1,68 @@
-.navigation {
-    font-family: calibri;
-    font-size: 100%;
-    font-weight: bold;
-    background-color: pink;
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
 }
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+header ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navigation {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+#about-me, #my-projects {
+    margin-bottom: 20px;
+}
+
+.img-me {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-info a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
