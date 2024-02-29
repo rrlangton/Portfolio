@@ -1,18 +1,24 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 body, h1, h2, p, ul {
     margin: 0;
     padding: 0;
 }
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f8f8f8;
+    font-weight: bold;
+    line-height: 1.5;
+    background-color: #12eed8;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
+    background-color: pink;
+    color: rgb(2, 12, 0);
+    padding: 30px;
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 header h1 {
@@ -31,7 +37,7 @@ header ul li {
 }
 
 .navigation {
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -39,8 +45,10 @@ section {
     padding: 20px;
 }
 
-#about-me, #my-projects {
-    margin-bottom: 20px;
+#about-me, #projects {
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .img-me {
@@ -49,11 +57,40 @@ section {
     border-radius: 50%;
 }
 
+.float-left {
+    float: left;
+    margin-right: 15px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 15px;
+}
+
+#image1, #image2, #image3 {
+    height: 25%;
+    width: 25%;
+}
+
+#image1:hover, #image2:hover, #image3:hover{
+    height: 26%;
+    width: 26%;
+    opacity: .5;
+}
+
+#image3 {
+    display:block;
+    margin:auto;
+    float:center;
+    margin-left:11.5%;
+}
+
 footer {
-    background-color: #333;
+    background-color: pink;
     color: #fff;
-    padding: 20px;
+    padding: 30px;
     text-align: center;
+    clear: both;
 }
 
 .contact-info a {
